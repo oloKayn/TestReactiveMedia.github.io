@@ -1,0 +1,117 @@
+h1 
+    +MullerBold 
+    color: #3B3380
+    font-size: 45px 
+    line-height: 49px 
+    margin-top: $XXL
+    margin-bottom: $XL
+h2 
+    +MullerBold 
+    color: #3B3380
+    font-size: 29px 
+    line-height: 37px 
+    margin-top: $XL 
+    margin-bottom: $M 
+p  
+    +ProximaNovaRegular
+    color: #333333   
+    font-size: 18px 
+    line-height: 24px 
+    margin-bottom: $S 
+.input 
+    width: 306px 
+    height: 27px 
+    border: none  
+    border-bottom: 1px solid #e5e5e5  
+    color: #333333  
+    +ProximaNovaRegular
+    &::placeholder 
+        color: #a2a2a2   
+input 
+    +ProximaNovaRegular
+
+input:focus:invalid 
+    border: none 
+    border-bottom: 1px solid red
+
+input:focus:valid
+    border: none  
+    border-bottom: 1px solid #3b3380
+.error 
+    font-size: 15px 
+    +ProximaNovaRegular 
+    color: red 
+
+.ul  
+    width: 100% 
+    +ProximaNovaRegular 
+    font-size: 17px 
+    line-height: 17px  
+    list-style-type: none
+.li 
+    margin-bottom: $S 
+    display: inline-block 
+    &:before 
+        display: inline-block
+        content: "•" 
+        padding-right: 7px 
+        font-size: 20px 
+        color: red 
+
+a 
+    cursor: pointer 
+    text-decoration: none 
+    &:hover 
+        color: #dd1c24 
+.menu 
+    &__text 
+        +ProximaNovaSemiBold  
+        color: #3B3380   
+        font-size: 18px 
+        cursor: pointer 
+        li:hover 
+            color: #dd1c24 
+    &-phone 
+        +ProximaNovaExtraBold 
+        font-size: 18px  
+        color: #1D1D4C  
+        &_footer 
+            +ProximaNovaExtraBold 
+            font-size: 18px  
+            color: #fff 
+
+
+
+
+.button 
+    padding: 13px 20px 
+    +ProximaNovaRegular 
+    font-size: 16px 
+    border-radius: 3px
+    cursor: pointer 
+    &-2
+        max-width: 126px 
+        max-height: 48px 
+        background-color: #fff
+        color: #dd1c24  
+        border: 2px solid #dd1c24 
+        &:hover 
+            color: #fff 
+            background-color: #dd1c24 
+    &-1  
+        padding: 16px 20px 
+        max-width: 210px 
+        color: #dd1c24  
+        border: 2px solid #dd1c24 
+        background-color: #19173F
+        &:hover 
+            color: #fff 
+            background-color: #dd1c24 
+main 
+    position: relative     
+.totop 
+    position: fixed 
+    right: 50px 
+    bottom: 115px 
+    max-width: 53px 
+    max-height: 53px 

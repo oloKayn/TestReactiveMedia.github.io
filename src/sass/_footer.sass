@@ -1,0 +1,69 @@
+.footer 
+    background-color: #19173F // 3B3380
+    height: 215px  
+    padding-top: 50px 
+    z-index: 1
+    &-wrap 
+        display: flex 
+        flex-direction: row
+        flex-wrap: wrap 
+        justify-content: space-between 
+    &-block 
+        display: flex 
+        flex-direction: column 
+        flex-wrap: wrap 
+        &-contact 
+            flex: 0 0 25%
+            max-width: 25% 
+            color: #fff 
+            +ProximaNovaRegular 
+            font-size: 18px 
+            &__email 
+                color: #fff 
+            &-map 
+                color: #dd1c24 
+                &:hover 
+                    color: #fff
+            &__map 
+                vertical-align: middle 
+                margin-top: 30px 
+            &__map-icon 
+                max-width: 16px 
+                max-height: 21px 
+                margin-right: 10px
+                vertical-align: middle 
+            &__phone 
+                padding-bottom: 16px 
+        &-menu
+            display: flex
+            flex: 0 0 33% 
+            max-width: 33%  
+            flex-wrap: wrap 
+            flex-direction: row       
+        &__menu
+            display: flex  
+            flex-direction: column 
+            color: #fff 
+            +ProximaNovaRegular 
+            font-size: 18px 
+            cursor: pointer  
+            text-decoration: none 
+            margin-bottom: 17px 
+            &:hover 
+                color: #dd1c24 
+        &-soc 
+            flex: 0 0 16.666667% 
+            max-width: 16.666667% 
+            &__icon 
+                max-width: 44px 
+                max-height: 44px 
+                margin-right: 20px 
+                margin-top: 10px 
+            &__icons 
+
+            &__signature 
+                margin-top: 20px 
+                color: #fff 
+                +ProximaNovaRegular 
+                font-size: 16px 
+                cursor: pointer 
